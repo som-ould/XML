@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="https://github.com/som-ould/XML/blob/main/Aufgabe3.xsd"
+xmlns:tns="https://github.com/som-ould/XML/blob/main/Aufgabe3.xsd"
+attributeFormDefault="unqualified" elementFormDefault="qualified">
     <xs:element name="kfz">
         <xs:complexType>
             <xs:sequence>
