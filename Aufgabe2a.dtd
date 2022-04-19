@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!ELEMENT KFZ (Auto+,Motorrad+)>
-<!ELEMENT Auto (Kennzeichen, Halter, Typ)>
-<!ELEMENT Kennzeichen (#PCDATA)>
-<!ELEMENT Halter (Vorname,Nachname)>
-<!ELEMENT Vorname (#PCDATA)>
-<!ELEMENT Nachname (#PCDATA)>
-<!ELEMENT Typ (#PCDATA)>
-<!ELEMENT Motorrad (Kennzeichen, Halter)>
+<!ELEMENT kfz (auto+,motorrad+)>
+<!ELEMENT auto (kennzeichen, halter, typ)>
+<!ELEMENT kennzeichen (#PCDATA)>
+<!ELEMENT halter (vorname,nachname)>
+<!ELEMENT vorname (#PCDATA)>
+<!ELEMENT nachname (#PCDATA)>
+<!ELEMENT typ (#PCDATA)>
+<!ELEMENT motorrad (kennzeichen, halter)>
